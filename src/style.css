@@ -1,26 +1,13 @@
 /* styles go here */
-.form_field {
+label {
   display: block;
-  margin: 10px 0;
+  margin-bottom: 10px;
 }
 
-.form_group {
-  margin: 20px 0;
-  padding-top: -10px;
-  padding-bottom: 0;
-  margin-left: 2px;
-  margin-right: 2px;
+label:last-child {
+  margin-bottom: 0;
 }
 
-legend {
-  margin-top: -10px;
-  margin-bottom: -10px;
-}
-
-form {
-  margin-top: -4px;
-}
-
-.personal_info {
-  margin-top: 12px;
+fieldset {
+  margin-bottom: 20px;
 }
